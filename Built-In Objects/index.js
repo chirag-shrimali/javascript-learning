@@ -247,3 +247,53 @@ console.log('\n ----- BUILT - IN OBJECTS ----- \n');
 // console.log(day.toTimeString());
 
 // console.log(day.toLocaleString());
+
+// --------------------------------------------------------------------------------------------------
+
+// camelCase , PascalCase , snake_case , STREAMING_SNAKE_CASE
+
+// let userName = "Chirag Shrimali"; // Double quoate
+
+// let password = 'Chirag@0411'; // Single quoate
+
+// let address = `isanpur , Ahmedabad`; // back-tick / template literal / grave-accent
+
+// console.log(userName , password , address); // the , operator gives the extra space...
+
+// let str = "Chirag is a Handsome Guy";
+
+// console.log(str);
+
+// console.log(str.search("is")); // 7
+
+// console.log(str.slice(4)); // if in the slice() function we only write the one number it takes number to length of the string
+
+// console.log(str.slice(4 , 8)); // ag i
+
+// console.log(str.slice(-7)); // ome Guy
+
+// console.log(str.slice(-7 , -2)); // ome G
+
+// the main difference between slice and substring is we can be use the negative indexing value in slice but in the substring not used...
+
+// console.log(str.substring(5)); // g to length
+
+// console.log(str.substring(1 , 5)); // hira
+
+// console.log(str.substring(-4)); // negative indexing are not applied in this string so it can be printed the whole string as it is...
+
+// let str = "Chirag Ramesh Suresh Mahesh Paresh";
+
+// console.log(str);
+
+// console.log(str.split(""));
+
+// console.log(str.split(" "));
+
+// --------------------------------------------------------------------------------------------------
+
+// Date Built - In Object
+
+let day = new Date();
+
+console.log(day);
