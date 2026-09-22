@@ -294,6 +294,50 @@ console.log('\n ----- BUILT - IN OBJECTS ----- \n');
 
 // Date Built - In Object
 
-let day = new Date();
+// let day = new Date();
 
-console.log(day);
+// console.log(day); // it will be gives the UTC(universal time of co-orinatior)
+
+// console.log(day.toString()); // it will be gives the Indian Standard time
+
+// console.log(day.toISOString()); // it also gives to me the UTC time...
+
+// console.log(day.toLocaleString());
+
+// console.log(day.getDay()); // it can be prints the day number of the week... 0 - 6 starts from sunday 0 to sat 6
+
+// console.log(day.getDate()); // the day number of the month
+
+// console.log(day.getFullYear());
+
+// console.log(day.getMonth()); // 0-11 it can be gives the month number of the year
+
+// console.log(day.getHours());
+
+// console.log(day.getMilliseconds());
+
+// console.log(day.getMinutes());
+
+// console.log(day.getSeconds());
+
+// console.log(day.getUTCDate());
+
+// let day = new Date(2026 , 8 , 22 , 16 , 14 , 10 , 66666);
+
+// console.log(day);
+
+// console.log(day.toString());
+
+// let day = Date.now(); // It can be gives the timestamp in miliseconds of UTC(universal Time of coordination)
+
+// let dates = new Date(1790074306474);
+
+// // console.log(dates);
+
+// console.log(dates.toString());
+
+// console.log(Date.now());
+
+// let day = new Date(1790074394020);
+
+// console.log(day.toString());
