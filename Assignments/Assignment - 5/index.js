@@ -1,0 +1,1 @@
+console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
