@@ -235,7 +235,24 @@ console.log('\n----- OBJECT DE-STRUCTURING || UPDATING -----\n');
 
 // ------------------------------------------------------------------------------------------------------------------------
 
+// optional chaining...
 
+let obj = 
+{
+    name : 'Chirag' ,
+
+    address : null ,
+};
+
+console.log(obj);
+
+// console.log(obj?.address); // here ? is an optional chaining due to this , we can be safely access the object properties...
+
+console.log(obj.address?.street); // undefined -- optional chaining
+
+// console.log(obj.address);
+
+// console.log(obj['address']);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
