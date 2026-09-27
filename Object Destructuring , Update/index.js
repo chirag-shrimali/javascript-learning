@@ -328,4 +328,49 @@ console.log('\n----- OBJECT DE-STRUCTURING || UPDATING -----\n');
 
 // console.log(res);
 
+// findIndex() function / methods...
+
+// let arr = [5 , 4 , 6 , 8 , 9];
+
+// let res = arr.findIndex((val)=>{
+//     // return val === 6; // give the index value of the elements...
+
+//     return val === "6";
+// });
+
+// console.log(res);
+
 // ------------------------------------------------------------------------------------------------------------------------
+
+// mutability(changeable) and immutability(not changeable)
+
+//        0    1   2   3   4
+
+let arr = [5 , 9 , 6 , 7 , 3];
+
+//         -5  -4  -3  -2   -1
+
+// console.log(arr); // prints the array -- [5 , 9 , 6 , 7 , 3]
+
+// mutability
+
+// let copyArr = arr; // arr copying to the copyArr -- using this the copyArr only takes the address of the arr as a reference...
+
+// copyArr.pop(); // removes an element at the end...
+
+// console.log(arr); // [5 , 9 , 6 , 7]
+
+// console.log(copyArr); // [5 , 9 , 6 , 7]
+
+// if we want to not changing down the another array then we can be using the spread operator...
+
+// let copyArr = [...arr]; // arr copying to the copyArr
+
+// copyArr.pop(); // removes an element at the end...
+
+// console.log(arr); // [5 , 9 , 6 , 7 , 3]
+
+// console.log(copyArr); // [5 , 9 , 6 , 7]
+
+// -------------------------------------------------------------------------------------------------------------------
+
