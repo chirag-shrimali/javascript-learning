@@ -243,10 +243,7 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 // console.log(profile);
 
-
-
-
-
+// console.log({...profile , isLoggedIn : true}); // adds the properties , keys-values pairs of the object...
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -255,7 +252,6 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 /**
 
     7. Get Object Keys
-
 
     Create a user object containing name, email, and role. Use Object.keys() to get all the property names.
 
@@ -496,15 +492,9 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 //     price : 50000 ,
 // };
 
-// let {price , ...productName} = product;
-
-// console.log(price);
+// let {name : productName , ...hello} = product;
 
 // console.log(`productName = ${productName}`);
-
-
-
-
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -536,9 +526,31 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 */
 
+// const name = "Rahul";
 
+// const email = "rahul@example.com";
 
+// const role = "developer";
 
+// let user =
+// {
+//     name : name ,
+
+//     email : email ,
+
+//     role : role ,
+// };
+
+// let user =
+// {
+//     name ,
+
+//     email ,
+
+//     role ,
+// };
+
+// console.log(user);
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -567,10 +579,20 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 */
 
+// function displayUser({name , email})
+// {
+//     console.log(name);
 
+//     console.log(email);
+// }
 
+// displayUser(
+//     {        
+//         name: "Rahul" ,
 
-
+//         email: "rahul@example.com" ,
+//     }
+// );
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -604,9 +626,20 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 */
 
+// const user = 
+// {
+//     name : "Rahul" ,
 
+//     role : "developer" ,
+// };
 
+// console.log(user);
 
+// const newUser = user;
+
+// const newUser = {...user}; // using spread operator which means no mutability applied , only immutability not changed the other object...
+
+// console.log(newUser);
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -637,9 +670,20 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 */
 
+// const user = 
+// {
+//     name : "Rahul" ,
 
+//     role : "student" ,
+// };
 
+// console.log(user);
 
+// user.role = 'developer';
+
+// console.log(user);
+
+// console.log({...user , role : 'developer'});
 
 // -------------------------------------------------------------------------------------------------------------------------
 
@@ -694,11 +738,11 @@ console.log('\n----- ASSIGNMENT - 5 || OBJECT & METHODS -----\n');
 
 */
 
-function showSkills(devName , ...skills)
-{
-    console.log(`Name : ${devName}`);
+// function showSkills(devName , ...skills)
+// {
+//     console.log(`Name : ${devName}`);
 
-    console.log(`Skills : ${skills}`);
-}
+//     console.log(`Skills : ${skills}`);
+// }
 
-showSkills("Rahul", "HTML", "CSS", "JavaScript");
+// showSkills("Rahul", "HTML", "CSS", "JavaScript");
