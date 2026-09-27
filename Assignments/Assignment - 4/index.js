@@ -178,8 +178,15 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// removing an elements using splice() methods
 
+// let arr = ["HTML", "CSS", "JavaScript", "React"];
 
+// console.log(arr);
+
+// arr.splice(1 , 1);
+
+// console.log(arr);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -196,8 +203,15 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// adding an elements using splice() methods
 
+// let arr = ["HTML", "JavaScript"];
 
+// console.log(arr);
+
+// arr.splice(1 , 0 , 'CSS');
+
+// console.log(arr);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -214,8 +228,15 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// replace an elements using splice() methods...
 
+// let arr = ["HTML", "CSS", "Java"];
 
+// console.log(arr);
+
+// arr.splice(2 , 1 , 'JavaScript');
+
+// console.log(arr);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -232,8 +253,17 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
 
+// console.log(arr);
 
+// console.log(arr.splice(1 , 3));
+
+// let arr = ["HTML", "CSS", "JavaScript", "React", "Node.js"];
+
+// console.log(arr);
+
+// console.log(arr.slice(1 , 4));
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -245,7 +275,15 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr = [5 , 6 , 7];
 
+// console.log(arr);
+
+// let copyArr = arr.slice();
+
+// console.log(copyArr);
+
+// console.log(arr);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -304,8 +342,19 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr =
+// [
+    
+//     { name: "Rahul", age: 20 } ,
+    
+//     { name: "Priya", age: 22 } ,
+// ];
 
+// let res = arr.find((ele)=>{
+//     return ele.name === "Rahul"; 
+// });
 
+// console.log(res);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -326,8 +375,18 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr =
+// [
+//     { name: "Rahul", age: 20 } ,
+    
+//     { name: "Priya", age: 22 } ,
+// ];
 
+// let res = arr.findIndex((val , index)=>{
+//     return val.name === "Priya"; 
+// });
 
+// console.log(res);
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -346,8 +405,11 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr = [1, 2, [3, 4]];
 
+// console.log(arr);
 
+// console.log(arr.flat(Infinity));
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -364,8 +426,11 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 */
 
+// let arr = [1, [2, [3, 4]]];
 
+// console.log(arr);
 
+// console.log(arr.flat(Infinity));
 
 // ------------------------------------------------------------------------------------------------------------------------
 
@@ -442,16 +507,16 @@ console.log('\nASSIGNMENT - 4 || ARRAY & Methods!!\n');
 
 //           0       1          2
 
-let arr = ["HTML", "CSS", "JavaScript"];
+// let arr = ["HTML", "CSS", "JavaScript"];
 
 //           -3      -2         -1
 
-console.log(arr); // prints the array...
+// console.log(arr); // prints the array...
 
-arr.shift(); // removing the HTML elements from the start...
+// arr.shift(); // removing the HTML elements from the start...
 
-console.log(arr); // ['CSS' , 'JS'];
+// console.log(arr); // ['CSS' , 'JS'];
 
-arr.push('React'); // adding the elements from the end...
+// arr.push('React'); // adding the elements from the end...
 
-console.log(arr);// ['CSS' , 'JS' , 'React'];
+// console.log(arr);// ['CSS' , 'JS' , 'React'];
