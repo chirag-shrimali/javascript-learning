@@ -50,13 +50,25 @@ let arr = [145 , 789 , 369 , 230 , 500];
 
 //          -5    -4    -3    -2    -1
 
-console.log(arr);
+// console.log(arr);
 
-let finalPrice = arr.map((ele , index) =>
-{
-    // return `${index} - ${ele}`;
+// let finalPrice = arr.map((ele , index) =>
+// {
+//     // return `${index} - ${ele}`;
 
-    return ele * 0.9; // discount is 10% -- 10/100 -- 0.1
-});
+//     return ele * 0.9; // discount is 10% -- 10/100 -- 0.1
+// });
 
-console.log(finalPrice);
+// console.log(finalPrice);
+
+// forEach() methods / functions -- it can not be return the value...
+
+// let discountPrice = []
+
+// arr.forEach((ele) => 
+// {
+//     discountPrice.push(ele * 0.9);
+// })
+
+// console.log(discountPrice);
+
