@@ -102,26 +102,26 @@ console.log('\n----- MAP , FILTER & REDUCE -----\n');
 
 // Array of Objects...
 
-let obj =
-[
-    {
-        name : 'C' ,
+// let obj =
+// [
+//     {
+//         name : 'C' ,
 
-        age : 21 ,
-    } ,
+//         age : 21 ,
+//     } ,
 
-    {
-        name : 'R' ,
+//     {
+//         name : 'R' ,
 
-        age : 19 ,
-    } ,
+//         age : 19 ,
+//     } ,
 
-    {
-        name : 'V' ,
+//     {
+//         name : 'V' ,
 
-        age : 25 ,
-    } ,
-];
+//         age : 25 ,
+//     } ,
+// ];
 
 // prints the name of each students...
 
@@ -165,3 +165,71 @@ let obj =
 // })
 
 // console.log(res);
+
+// let res = obj.map((ele) => ({...ele , age : ele.age + 10}))
+
+// console.log(res);
+
+// -------------------------------------------------------------------------------------------------------
+
+// Filter methods / functions...
+
+//         0   1   2   3   4
+
+// let arr = [5 , 9 , 3 , 4 , 6];
+
+//         -5  -4  -3  -2  -1
+
+// arr.filter((ele , index) => {
+//     console.log(index , '-' ,ele);
+// });
+
+let students =
+[
+    {
+        name : 'C' ,
+
+        marks : 99 ,
+    } ,
+
+    {
+        name : 'R' ,
+
+        marks : 40 ,
+    } ,
+
+    {
+        name : 'D' ,
+
+        marks : 50 ,
+    } ,
+
+    {
+        name : 'M' ,
+
+        marks : 80 ,
+    } ,
+
+    {
+        name : 'Q' ,
+
+        marks : 20 ,
+    } ,
+];
+
+// forEach() method...
+
+// let newArr = [];
+
+// students.forEach((ele) =>
+// {
+//     if(ele.marks < 33) newArr.push(ele);
+// })
+
+// console.log(newArr);
+
+// filter...
+
+let res = students.filter((ele) => ele.marks < 33);
+
+console.log(res);
