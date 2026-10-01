@@ -46,7 +46,7 @@ console.log('\n----- MAP , FILTER & REDUCE -----\n');
 
 //         0      1     2     3     4
 
-let arr = [145 , 789 , 369 , 230 , 500];
+// let arr = [145 , 789 , 369 , 230 , 500];
 
 //          -5    -4    -3    -2    -1
 
@@ -58,6 +58,9 @@ let arr = [145 , 789 , 369 , 230 , 500];
 
 //     return ele * 0.9; // discount is 10% -- 10/100 -- 0.1
 // });
+
+// let finalPrice = arr.map((ele , index) => ele * 0.9); // discount is 10% -- 10/100 -- 0.1
+// // return `${index} - ${ele}`;
 
 // console.log(finalPrice);
 
@@ -72,3 +75,93 @@ let arr = [145 , 789 , 369 , 230 , 500];
 
 // console.log(discountPrice);
 
+// Object...
+
+// let obj =
+// {
+//     name : 'Chirag' ,
+
+//     age : 19 , 
+
+//     isValid : true ,
+
+//     id : 21 ,
+
+//     address : 'Ahmedabad' ,
+// };
+
+// console.log(obj);
+
+// Object.keys(obj).map((ele)=> console.log(ele));
+
+// Object.values(obj).map((ele)=> console.log(ele));
+
+// Object.entries(obj).map((ele)=> console.log(ele));
+
+// --------------------------------------------------------------------------------------------------
+
+// Array of Objects...
+
+let obj =
+[
+    {
+        name : 'C' ,
+
+        age : 21 ,
+    } ,
+
+    {
+        name : 'R' ,
+
+        age : 19 ,
+    } ,
+
+    {
+        name : 'V' ,
+
+        age : 25 ,
+    } ,
+];
+
+// prints the name of each students...
+
+// let nameArr = [];
+
+// obj.forEach((ele) => nameArr.push(ele.name));
+
+// console.log(nameArr);
+
+// let nameArr1 = obj.map((ele)=> ele.name);
+
+// console.log(nameArr1);
+
+// let res = obj.map((ele)=> ele);
+
+// console.log(res);
+
+// ---------------------------------------------------------------------------------------------------------------------
+
+// let newArr = [];
+
+// obj.forEach((ele) => newArr.push(ele.age + 10));
+
+// console.log(newArr);
+
+// let res = obj.map((ele) => ele.age + 10);
+
+// console.log(res);
+
+// let newArr = [];
+
+// for(ele of obj)
+// {
+//     newArr.push(ele.age + 10);
+// }
+
+// console.log(newArr);
+
+// let res = obj.map((ele) => {
+//     return {...ele , age : ele.age + 10}
+// })
+
+// console.log(res);
