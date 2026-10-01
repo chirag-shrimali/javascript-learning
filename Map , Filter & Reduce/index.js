@@ -39,3 +39,24 @@ console.log('\n----- MAP , FILTER & REDUCE -----\n');
 // console.log(originalPrice);
 
 // console.log(discountPrice);
+
+// ------------------------------------------------------------------------------------------------------------------
+
+// map -- Immutable...
+
+//         0      1     2     3     4
+
+let arr = [145 , 789 , 369 , 230 , 500];
+
+//          -5    -4    -3    -2    -1
+
+console.log(arr);
+
+let finalPrice = arr.map((ele , index) =>
+{
+    // return `${index} - ${ele}`;
+
+    return ele * 0.9; // discount is 10% -- 10/100 -- 0.1
+});
+
+console.log(finalPrice);
