@@ -116,7 +116,13 @@ Output:
 //     { name : "Priya" , role : "student"} , 
 // ];
 
+// console.log(arrUserObj);
 
+// let res = arrUserObj.map((ele) => {
+//     return {...ele , role : 'developer'}
+// });
+
+// console.log(res);
 
 // ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -132,7 +138,7 @@ Input:
     { name: "Laptop", price: 50000 }, 
     
     { name: "Mouse", price: 500 } 
-] 
+]
 
 Output: 
 [ 
@@ -142,6 +148,20 @@ Output:
 ] 
 */
 
+// let arrProductObj =
+// [ 
+//     { name: "Laptop", price: 50000 }, 
+    
+//     { name: "Mouse", price: 500 } 
+// ];
+
+// console.log(arrProductObj);
+
+// let res = arrProductObj.map((ele) => {
+//     return {...ele , instock : true}
+// });
+
+// console.log(res);
 
 // ---------------------------------------------------------------------------------------------------------------------------------
 
@@ -418,19 +438,19 @@ Output:
 "HTML, CSS, JavaScript"
 */
 
-let frontEnd = ["HTML", "CSS", "JavaScript"];
+// let frontEnd = ["HTML", "CSS", "JavaScript"];
 
-console.log(frontEnd);
+// console.log(frontEnd);
 
 // console.log(frontEnd.join(','));
 
-let res = frontEnd.reduce((acc , ele , index) => {
-    if(index === 0) return ele
-    
-    return acc + ',' + ele
-} , "");
+// let res = frontEnd.reduce((acc , ele , index) => {
+//     if(index === 0) return ele;
 
-console.log(res);
+//     return acc + ', ' + ele; 
+// } , "");
+
+// console.log(res);
 
 // ---------------------------------------------------------------------------------------------------------------------------------
 
