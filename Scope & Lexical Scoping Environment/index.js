@@ -89,7 +89,7 @@ console.log('\n----- SCOPE || LEXICAL SCOPING ENVIRONMENT -----\n');
 // {
 //     // console.log(userName); // Chirag
 
-//     var age = 19;
+//     var age = 190;
 
 //     // console.log(age); // 19
 // } // Block scope...
@@ -104,6 +104,8 @@ console.log('\n----- SCOPE || LEXICAL SCOPING ENVIRONMENT -----\n');
 
 //     console.log(age); // 19
 // }
+
+// console.log(age);
 
 // console.log(age); // ReferenceError : age is not defined
 
