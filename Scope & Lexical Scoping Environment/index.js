@@ -110,3 +110,107 @@ console.log('\n----- SCOPE || LEXICAL SCOPING ENVIRONMENT -----\n');
 // console.log(age); // ReferenceError : age is not defined
 
 // printName(); // Calling the printName function and then it can be prints the contents of that function...
+
+// ------------------------------------------------------------------------------------------------------------
+
+// SCOPING IN THE JS(JAVASCRIPT)...
+
+/**
+1. Global Scope...
+2. Block Scope / Local Scope...
+3. Function Based Scope...
+
+let and const variable declaration are block scope...
+where var variable declaration is function based scope...
+*/
+
+// Global Scope -- it can be defined globally...
+
+// let a = 10;
+
+// const b = 20;
+
+// var c = 30;
+
+// console.log(a , b , c); // 10 20 30
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Block Scope...
+
+// here {} is a scope which is also known as block / local scope...
+
+// {
+//     let a = 10;
+
+//     const b = 20;
+
+//     var c = 30;
+
+//     // console.log(a , b , c); // 10 20 30
+// }
+
+// console.log(a); // ReferenceError : a is not defined
+
+// console.log(b); // ReferenceError : b is not defined
+
+// console.log(c); // due to the hoisting it can be printed as 30 in the var varibale declaration...
+
+// ------------------------------------------------------------------------------------------------------------
+
+// let a = 10;
+
+// const b = 20;
+
+// var c = 30;
+
+// console.log(a , b , c); // 10 20 30
+
+// {
+//     let a = 100;
+
+//     const b = 200;
+
+//     var c = 300;
+
+//     console.log(a , b , c); // 100 200 300
+// }
+
+// console.log(a , b , c); // 10 20 300
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Function based scope...
+
+// let userName = 'Chirag';
+
+// function greet()
+// {
+//     let userName = 'Ramesh';
+    
+//     console.log(`Hello , ${userName}!!`); // Grave-Accent / Back-Tick / Template-Literal...
+// } 
+
+// greet();
+
+// ------------------------------------------------------------------------------------------------------------
+
+// Nested Scope...
+
+function one()
+{
+    const userName = 'Chirag';
+
+    function two()
+    {
+        // const website = 'Youtube';
+
+        console.log(userName);
+    }
+
+    // console.log(website);
+
+    two();
+}
+
+one();
