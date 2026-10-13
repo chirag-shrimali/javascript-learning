@@ -104,12 +104,12 @@ console.log('\n--- OBJECT ---\n');
 
 // hasOwnProperty...
 
-let obj = {name : 'C' , id : 21};
+// let obj = {name : 'C' , id : 21};
 
 // hasOwnProperty same as in the string object includes...
 
 // hasOwnProperty takes the keys of the object and prints true if exits otherwise false...
 
-console.log(obj.hasOwnProperty('name')); // true
+// console.log(obj.hasOwnProperty('name')); // true
 
-console.log(obj.hasOwnProperty('age')); // false
+// console.log(obj.hasOwnProperty('age')); // false
