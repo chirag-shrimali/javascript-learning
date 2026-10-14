@@ -152,6 +152,8 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 
 // let addNum = (n1 , n2) => n1 + n2;
 
-let addNum = (n1 , n2) => (n1 + n2);
+// let addNum = (n1 , n2) => (n1 + n2);
 
-console.log(addNum(5 , 3)); // 8
+// console.log(addNum(5 , 3)); // 8
+
+// --------------------------------------------------------------------------------------------------------------------------
