@@ -89,6 +89,8 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 
 // --------------------------------------------------------------------------------------------------------------------------
 
+// Normal / Regular Function(Function declaration / definition)...
+
 // function greet()
 // {
 //     console.log(this); // window browser can be printed...
@@ -106,6 +108,8 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 // greet();
 
 // --------------------------------------------------------------------------------------------------------------------------
+
+// Function Expression...
 
 // let greet = function()
 // {
