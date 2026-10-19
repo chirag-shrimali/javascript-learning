@@ -98,7 +98,7 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 // {
 //     let userName = 'Chirag';
 
-//     // this ket=yword only applied on the object not function or array...
+//     // this keyword only applied on the object not function or array...
 
 //     console.log(this.userName); // undefined
 // }
