@@ -1,5 +1,3 @@
-const { use } = require("react");
-
 console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 
 // function declaration / definition...
@@ -163,3 +161,29 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 // console.log(addNum(5 , 3)); // 8
 
 // --------------------------------------------------------------------------------------------------------------------------
+
+// Only one parameter if we have to pass...
+
+// Normal / Regular function -- function declaration or definition...
+
+// function greet(name)
+// {
+//     return `Hello , ${name}!!`; // Back-tick / Grave-accent / Template Literal...
+// }
+
+// console.log(greet('Chirag')); // Hello , Chirag!!
+
+// function expression...
+
+// let greet = function(name)
+// {
+//     return `Hello , ${name}!!`; // Back-tick / Grave-accent / Template Literal...
+// }
+
+// console.log(greet('Chirag')); // Hello , Chirag!!
+
+// Arrow Function...
+
+let greet = name => `Hello , ${name}!!`; // Back-tick / Grave-accent / Template Literal...
+
+console.log(greet('Chirag')); // Hello , Chirag!!
