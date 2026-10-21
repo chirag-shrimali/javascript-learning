@@ -187,3 +187,5 @@ console.log('\n----- ARROW FUNCTION & THIS KEYWORD -----\n');
 // let greet = name => `Hello , ${name}!!`; // Back-tick / Grave-accent / Template Literal...
 
 // console.log(greet('Chirag')); // Hello , Chirag!!
+
+// --------------------------------------------------------------------------------------------------------------------------
